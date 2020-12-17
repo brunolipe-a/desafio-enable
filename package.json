@@ -1,0 +1,20 @@
+{
+  "name": "desafio-enable",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node japaFile.js",
+    "coverage": "nyc yarn test",
+    "coverage:lcov": "nyc --reporter=lcov yarn test"
+  },
+  "repository": "git@github.com:brunolipe-a/desafio-enable.git",
+  "license": "MIT",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "japa": "^3.1.1",
+    "nyc": "^15.1.0"
+  }
+}
